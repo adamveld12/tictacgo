@@ -1,0 +1,24 @@
+{
+	"ImportPath": "github.com/adamveld12/chat",
+	"GoVersion": "go1.4",
+	"Deps": [
+		{
+			"ImportPath": "github.com/beatrichartz/martini-sockets",
+			"Rev": "3f7a0a79b3af32dbcc6946a5ea90b60bd50a8c17"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-10-g33e0aa1",
+			"Rev": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504"
+		},
+		{
+			"ImportPath": "github.com/go-martini/martini",
+			"Comment": "v1.0-85-gbbd489b",
+			"Rev": "bbd489b35fd7eac9aaf442e5671ab21cdd972926"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "ab5b3a61f5b6aa323d66ece457334396c4ccdd03"
+		}
+	]
+}

@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/adamveld12/chat",
+	"ImportPath": "github.com/adamveld12/tictacgo",
 	"GoVersion": "go1.4",
 	"Deps": [
 		{

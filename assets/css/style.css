@@ -1,0 +1,48 @@
+html, body {
+  color: #F7F7F7;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #3E3F41;
+}
+
+#target p {
+  text-align: center;
+}
+
+#target {
+  width: 80%;
+  margin: 10px auto;
+}
+
+#board ul {
+  margin: 5px auto;
+  list-style: none;
+  max-width: 350px;
+  max-height: 350px;
+  padding: 10px;
+}
+
+#board ul li {
+  background-color: #F7F7F7;
+  float: left;
+  padding: 10px;
+  max-width: 80px;
+}
+
+#board ul li div {
+  background-color: #030000;
+  width: 80px;
+  height: 80px;
+}
+
+#updates ul {
+  border-style: solid;
+  border-width: 2px;
+  max-height: 150px;
+  list-style-type: none;
+  height: 150px;
+  overflow-y: scroll;
+  max-width: 60%;
+  margin: 20px auto;
+}

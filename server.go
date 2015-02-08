@@ -58,7 +58,7 @@ func main() {
 					log.Printf("SERVER: game %d ending\n", game.Id)
 					game.End()
 					delete(activeGames, player.GameId)
-					log.Printf("SERVER: %s games left\n", len(activeGames))
+					log.Printf("SERVER: %d games left\n", len(activeGames))
 				}
 				return 200, "OK"
 			}

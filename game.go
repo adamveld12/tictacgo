@@ -73,6 +73,8 @@ func (g *Game) DoMove(x, y int) {
 				g.Player2.EndGame(true)
 			} else {
 				log.Println("Tie")
+				g.Player1.UpdateStatus("A Tie!")
+				g.Player2.UpdateStatus("A Tie!")
 				g.Player1.EndGame(false)
 				g.Player2.EndGame(false)
 			}
